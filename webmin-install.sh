@@ -10,6 +10,6 @@ sudo apt-get install perl libnet-ssleay-perl openssl libauthen-pam-perl libpam-r
 wget http://prdownloads.sourceforge.net/webadmin/webmin_1.890_all.deb
 
 #Install the package
-sudo dpkg --install webmin_1.890_all.deb
+sudo dpkg --install webmin_1.900_all.deb
 
 echo "The Webmin console is accessible from the local IP address on port 10000"
