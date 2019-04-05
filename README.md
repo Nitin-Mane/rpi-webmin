@@ -1,6 +1,6 @@
 # rpi-webmin
 
-(Tutorial from https://pimylifeup.com/raspberry-pi-webmin/)
+(Tutorial originally from https://pimylifeup.com/raspberry-pi-webmin/)
 
 Webmin Setup for Raspberry Pi 
 
@@ -18,6 +18,8 @@ sudo apt-get install perl libnet-ssleay-perl openssl libauthen-pam-perl libpam-r
 3. The following command will download the required deb file to the Raspberry Pi. You may want to update the version number so that you’re downloading the latest version, you can view the latest version here.
 
 wget http://prdownloads.sourceforge.net/webadmin/webmin_1.890_all.deb
+
+Check https://sourceforge.net/projects/webadmin/files/webmin/ for the latest version and update above download accordingly
 
 4. Once the downloaded, run dpkg It may take some time to install.
 
